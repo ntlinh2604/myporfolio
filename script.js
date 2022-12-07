@@ -51,3 +51,18 @@ function myFunction() {
     moreText.style.display = "none";
   }
 }
+
+function myFunction2() {
+
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (btnText.innerHTML === "weitere Projekte ansehen") {
+    btnText.innerHTML = "weniger Projekte sehen"; 
+    moreText.style.display = "flex";
+  } else {
+    btnText.innerHTML = "weitere Projekte ansehen"; 
+    moreText.style.display = "none";
+  }
+}
+

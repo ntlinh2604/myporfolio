@@ -121,6 +121,19 @@ header .navbar ul{
     padding:1rem 3rem;
 }
 
+/* languages changes */
+.languages{
+    font-size: 1.5rem;
+}
+
+.language{
+    color: var(--yellow);
+    font-weight: 300;
+}
+.languages .active{
+    text-decoration: underline;
+}
+
 
 header .navbar ul li a{
     display: block;
@@ -410,6 +423,11 @@ header .navbar ul li a:hover{
     color:#eee;
     padding:1rem 0;
     font-weight: normal;
+}
+
+.contact .row .content .info h3 a{
+    color:#eee;
+    
 }
 
 .contact .row .content .info h3 i{
