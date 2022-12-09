@@ -321,6 +321,7 @@ header .navbar ul li a:hover{
     backface-visibility: hidden;
 }
 
+
 .box-project-back{
     transform: rotateY(180deg);
     background-image: linear-gradient(to right bottom, #f9ca24,rgb(157, 224, 99))
