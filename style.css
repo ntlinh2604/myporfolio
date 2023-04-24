@@ -241,7 +241,7 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 
-.education .box-container{
+.education .box-container, .experience .box-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -250,7 +250,7 @@ header .navbar ul li a:hover{
     padding-left: 3rem;
 }
 
-.education .box-container .box{
+.education .box-container .box, .experience .box-container .box{
     width:100%;
     margin:4rem 1rem;
     padding-left: 4rem;
@@ -258,7 +258,7 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.education .box-container .box span{
+.education .box-container .box span, .experience .box-container .box span{
     font-size: 1.3rem;
     background:#222;
     color:#fff;
@@ -266,20 +266,20 @@ header .navbar ul li a:hover{
     padding:.5rem 2.5rem;
 }
 
-.education .box-container .box h3{
+.education .box-container .box h3, .experience .box-container .box h3{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
 }
 
-.education .box-container .box p{
+.education .box-container .box p, .experience .box-container .box p{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
     text-align: justify;
 }
 
-.education .box-container .box i{
+.education .box-container .box i, .experience .box-container .box i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -330,7 +330,6 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: cover;
 }
 
 .box:hover .box-project-front{
